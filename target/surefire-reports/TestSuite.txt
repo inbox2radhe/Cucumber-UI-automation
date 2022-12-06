@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 505.087 s <<< FAILURE! - in TestSuite
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 69.974 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+Locator expected to be enabled
+Call log:
+Locator.expect with timeout 5000ms
+waiting for locator("xpath=//button[@id='upload-a-file-button']")
+
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 71.196 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+Locator expected to be enabled
+Call log:
+Locator.expect with timeout 5000ms
+waiting for locator("xpath=//button[@id='upload-a-file-button']")
+

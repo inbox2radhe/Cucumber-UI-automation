@@ -1,0 +1,5 @@
+com\FXO_Shiftleft_BDD\automation\Factory\playwrightFactory.class
+com\FXO_Shiftleft_BDD\automation\Pages\homePage.class
+com\FXO_Shiftleft_BDD\automation\Pages\mirkalDesignTemplatesPage.class
+com\FXO_Shiftleft_BDD\automation\objectRepository\objRepo.class
+com\FXO_Shiftleft_BDD\automation\testBase\BaseClass.class

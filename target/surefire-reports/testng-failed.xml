@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [FXO_Shiftleft_BDD]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" parallel="methods" name="Shift Left(failed)" verbose="0">
+    <classes>
+      <class name="com.FXO_Shiftleft_BDD.automation.testRunner.RunTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="tearDownClass"/>
+          <include name="runScenario" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.FXO_Shiftleft_BDD.automation.testRunner.RunTest -->
+    </classes>
+  </test> <!-- Shift Left(failed) -->
+</suite> <!-- Failed suite [FXO_Shiftleft_BDD] -->

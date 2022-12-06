@@ -1,0 +1,4 @@
+com\FXO_Shiftleft_BDD\automation\stepDefinations\loginSteps.class
+com\FXO_Shiftleft_BDD\automation\stepDefinations\pickupFlowSteps.class
+com\FXO_Shiftleft_BDD\automation\testRunner\RunTest.class
+com\FXO_Shiftleft_BDD\automation\stepDefinations\mirkalpickupSteps.class
