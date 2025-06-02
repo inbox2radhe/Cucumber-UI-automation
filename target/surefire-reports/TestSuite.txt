@@ -1,18 +1,94 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 505.087 s <<< FAILURE! - in TestSuite
-runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 69.974 s  <<< FAILURE!
+Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 465.826 s <<< FAILURE! - in TestSuite
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 111.007 s  <<< FAILURE!
+com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@id='fedex_iframe']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@id='fedex_iframe']").first()
+============================================================
+    at ProgressController.run (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\progress.js:88:26)
+    at Frame.setInputFiles (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\frames.js:1111:23)
+    at FrameDispatcher.setInputFiles (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\frameDispatcher.js:234:30)
+    at DispatcherConnection.dispatch (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\dispatcher.js:317:46)
+}
+Caused by: com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@id='fedex_iframe']").first()
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@id='fedex_iframe']").first()
+============================================================
+    at ProgressController.run (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\progress.js:88:26)
+    at Frame.setInputFiles (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\frames.js:1111:23)
+    at FrameDispatcher.setInputFiles (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\frameDispatcher.js:234:30)
+    at DispatcherConnection.dispatch (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\dispatcher.js:317:46)
+}
+
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 74.746 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 Locator expected to be enabled
 Call log:
 Locator.expect with timeout 5000ms
 waiting for locator("xpath=//button[@id='upload-a-file-button']")
 
-runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 71.196 s  <<< FAILURE!
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 72.871 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: 
 Locator expected to be enabled
 Call log:
 Locator.expect with timeout 5000ms
 waiting for locator("xpath=//button[@id='upload-a-file-button']")
+
+runScenario(com.FXO_Shiftleft_BDD.automation.testRunner.RunTest)  Time elapsed: 71.525 s  <<< FAILURE!
+com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first()
+  locator resolved to visible <iframe allowfullscreen="" class="pC-ENQ lyePVA" aria-la…></iframe>
+waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first().locator("xpath=//input[@type='search']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first()
+  locator resolved to visible <iframe allowfullscreen="" class="pC-ENQ lyePVA" aria-la…></iframe>
+waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first().locator("xpath=//input[@type='search']")
+============================================================
+    at ProgressController.run (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\progress.js:88:26)
+    at Frame.fill (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\frames.js:988:23)
+    at FrameDispatcher.fill (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at DispatcherConnection.dispatch (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\dispatcher.js:317:46)
+}
+Caused by: com.microsoft.playwright.TimeoutError: 
+Error {
+  message='Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first()
+  locator resolved to visible <iframe allowfullscreen="" class="pC-ENQ lyePVA" aria-la…></iframe>
+waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first().locator("xpath=//input[@type='search']")
+============================================================
+  name='TimeoutError
+  stack='TimeoutError: Timeout 30000ms exceeded.
+=========================== logs ===========================
+  waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first()
+  locator resolved to visible <iframe allowfullscreen="" class="pC-ENQ lyePVA" aria-la…></iframe>
+waiting for frameLocator("xpath=//iframe[@class='pC-ENQ lyePVA']").first().locator("xpath=//input[@type='search']")
+============================================================
+    at ProgressController.run (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\progress.js:88:26)
+    at Frame.fill (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\frames.js:988:23)
+    at FrameDispatcher.fill (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\frameDispatcher.js:158:30)
+    at DispatcherConnection.dispatch (C:\Users\4652497\AppData\Local\Temp\playwright-java-12216915118834570512\package\lib\server\dispatchers\dispatcher.js:317:46)
+}
 
